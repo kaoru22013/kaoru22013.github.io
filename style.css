@@ -1,0 +1,135 @@
+.横並び枠{
+	display: flex;
+	
+	justify-content: space-between;
+	
+	padding: 20px 0px 0px 0px;
+	
+	& .動物{
+	 width: 80%;
+	 padding: 10px 20px 0px 12px;	
+	}
+	
+	
+	& .列イヌ{
+		
+		border:solid 1px black;
+		width: 120px;
+		
+		& .タイトル{
+			font-size: 20px;
+			font-weight: 700;
+			padding: 0px 0px 0px 12px;
+		}
+		
+		& .本文{
+			font-size: 12px;
+			padding: 0px 0px 0px 12px;
+		}
+		
+	}
+	
+	& .列ヤク{
+		border:solid 1px black;
+		width: 120px;
+		
+		& .タイトル{
+			font-size: 20px;
+			font-weight: 700;
+			padding: 0px 0px 0px 12px;
+		}
+		
+		& .本文{
+			font-size: 12px;
+			padding: 0px 0px 0px 12px;
+		}
+		
+	}
+	
+	& .列キツネ{
+		border:solid 1px black;
+		width: 120px;
+		
+		& .タイトル{
+			font-size: 20px;
+			font-weight: 700;
+			padding: 0px 0px 0px 12px;
+		}
+		
+		& .本文{
+			font-size: 12px;
+			padding: 0px 0px 0px 12px;
+		}
+		
+		
+	}
+	
+}
+
+
+
+
+
+
+
+.横並びA{
+	display: flex;
+	
+	justify-content: space-between;
+	
+	& .列{
+		background-color: orange;
+		
+		width: 120px;
+		
+	}
+	
+}
+
+.横並びB{
+	display: flex;
+	
+	justify-content: space-between;
+	
+	& .広い列{
+		background-color: lightblue;
+		
+		width: 240px;
+	}
+	
+	& .狭い列{
+		background-color: lightgreen;
+		
+		width: 120px;
+	}
+				
+}
+
+.横並びC{
+	display: flex;
+	
+	justify-content: space-between;
+	
+	& .列{
+		background-color: pink;
+		
+		width: 120px;
+		
+	}
+}
+
+.横並びD{
+	display: flex;
+	
+	justify-content: center;
+	
+	gap: 20px;
+	
+	& .列{
+		background-color: red;
+		
+		width: 120px;
+		
+	}
+}
+
